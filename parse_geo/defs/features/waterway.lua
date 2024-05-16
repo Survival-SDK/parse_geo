@@ -1,0 +1,53 @@
+return {
+    ignored = {},
+    properties = {
+        canal = {
+            ["boat"] = true,
+            ["bridge"] = true,
+            ["canoe"] = true,
+            ["CEMT"] = true,
+            ["cutting"] = true,
+            ["embankment"] = true,
+            ["motorboat"] = true,
+            ["ship"] = true,
+            ["tunnel"] = true,
+            ["usage"] = true,
+        },
+        dam = {},
+        link = {},
+        rapids = {
+            ["height"] = true,
+            ["intermittent"] = true,
+            ["length"] = true,
+            ["rapids"] = true,
+            ["seasonal"] = true,
+            ["tidal"] = true,
+            ["width"] = true,
+        },
+        river = {
+            ["CEMT"] = true,
+            ["draft"] = true,
+            ["intermittent"] = true,
+            ["maxheight"] = true,
+            ["maxlength"] = true,
+            ["maxwidth"] = true,
+            ["tidal"] = true,
+            ["width"] = true,
+        },
+        stream = {
+            ["intermittent"] = true,
+            ["tunnel"] = true,
+            ["width"] = true,
+        },
+        waterfall = {
+            ["height"] = true,
+            ["width"] = true,
+        },
+        weir = {
+            ["canoe"] = true,
+            ["lock"] = true,
+        },
+    },
+    swaps = {},
+    swaps_to_properties = {},
+}
